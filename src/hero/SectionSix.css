@@ -1,0 +1,22 @@
+.six-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.six-content {
+    text-align: center;
+    width: 50%;
+}
+
+.six-content h3 {
+   font-size: 40px;
+   opacity: 0.9;
+   color: rgb(0, 0, 27);
+}
+
+.six-content p {
+    font-size: 14px;
+    opacity: 0.6;
+}

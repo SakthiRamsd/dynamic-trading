@@ -1,0 +1,98 @@
+.one-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start */
+    margin-top: 100px;
+    padding: 0 20px; /* Add padding for better spacing on smaller screens */
+}
+
+.one-left h2 {
+    width: 60%;
+    font-size: 35px;
+    opacity: 0.7;
+    color: navy;
+}
+
+.one-btn {
+    margin-top: 50px;
+}
+
+.one-btn a {
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.one-btn a:hover {
+    background-color: darkblue; /* Darker shade on hover */
+}
+
+.one-right {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.one-right img {
+    width: 75px;
+    border-radius: 99%;
+}
+
+.one-right h6 {
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.one-right p {
+    font-size: 12px; /* Increase font size for better readability */
+    opacity: 0.5;
+    line-height: 1.5; /* Adjust line height for better spacing */
+}
+
+.one-box-container {
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 20px; /* Adjusted padding for a more balanced appearance */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px 0;
+    transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.one-box-container:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .one-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .one-left h2 {
+        width: 100%; /* Make the heading full width on smaller screens */
+        text-align: center; /* Center the text */
+    }
+
+    .one-btn {
+        display: flex;
+        justify-content: center; /* Center button on smaller screens */
+    }
+
+    .one-right {
+        width: 100%; /* Make the right section full width */
+        justify-content: center; /* Center items */
+    }
+
+    .one-box-container {
+        width: 100%; /* Full width for boxes */
+    }
+}
