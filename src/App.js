@@ -8,6 +8,9 @@ import SectionSix from './hero/SectionSix';
 import SectionThree from './hero/SectionThree';
 import SectionTwo from './hero/SectionTwo';
 import NavBar from './navbar/NavBar';
+import SectionSeven from './hero/SectionSeven';
+import SectionEight from './hero/SectionEight';
+import FooterSection from './footer/FooterSection';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <SectionFour/>
       <SectionFive/>
       <SectionSix/>
+      <SectionSeven/>
+      <SectionEight/>
+      <FooterSection/>
     </div>
   );
 }

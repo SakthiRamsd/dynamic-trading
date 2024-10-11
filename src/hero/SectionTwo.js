@@ -9,7 +9,7 @@ function SectionTwo() {
       <div className='two-container'>
       
           <div className='two-left'>
-            <img src={heroImage}/>
+            <img src={heroImage} width={680}/>
           </div>
 
           <div className='two-right'>

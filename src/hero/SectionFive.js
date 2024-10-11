@@ -22,7 +22,7 @@ function SectionFive() {
 
         <div className='five-right'>
             <div className='five-img'>
-             <img src={heroImage}/>
+             <img src={heroImage} width={520}/>
             </div>
         </div>
 

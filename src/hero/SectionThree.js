@@ -22,7 +22,7 @@ function SectionThree() {
 
         <div className='three-right'>
             <div className='three-img'>
-             <img src={heroImage}/>
+             <img src={heroImage} width={580}/>
             </div>
         </div>
 

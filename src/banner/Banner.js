@@ -11,7 +11,7 @@ function Banner() {
         <div className='banner-left'>
           <img src={BrandNameImage}/>
           <h1>Start Trading In Crypto Instant</h1>
-          <p>Join World's Biggest And Tursted Exchange. Trade in BitCoin, Ethereum, Ripple And Many</p>
+          <p>Join World's Biggest And Tursted Exchange. Trade in BitCoin, Ethereum, Ripple And Many More Currencies.</p>
 
           <div className='banner-btn'>
             <a href='#' className='start'>Start Trading</a>

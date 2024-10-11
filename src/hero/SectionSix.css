@@ -7,16 +7,38 @@
 
 .six-content {
     text-align: center;
-    width: 50%;
+    width: 30%;
 }
 
 .six-content h3 {
    font-size: 40px;
+   font-weight: 700;
    opacity: 0.9;
-   color: rgb(0, 0, 27);
+   color: #26306a;
 }
 
 .six-content p {
-    font-size: 14px;
+    font-size: 12px; 
     opacity: 0.6;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .six-container {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .six-content {
+        width: 100%; 
+    }
+
+    .six-content h3 {
+        font-size: 35px; 
+    }
+
+    .six-content p {
+        font-size: 12px; 
+    }
 }
