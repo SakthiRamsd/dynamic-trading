@@ -1,9 +1,12 @@
 .one-container {
     display: flex;
-    justify-content: center;
-    align-items: flex-start; 
+    justify-content: space-between;
+    align-items: center; 
     margin-top: 100px;
-    padding: 0 20px;
+}
+
+.one-left {
+    width: 40%;
 }
 
 .one-left h2 {
@@ -30,9 +33,9 @@
 }
 
 .one-right {
+    width: 60%;
     display: flex;
     gap: 30px;
-    flex-wrap: wrap; 
 }
 
 .one-right img {
@@ -53,9 +56,9 @@
 }
 
 .one-box-container {
-    background-color: rgb(244, 241, 242);
+    background-color: rgb(231, 239, 240);
     border-radius: 10px;
-    padding: 20px; 
+    padding: 15px; 
     display: flex;
     gap: 20px;
     align-items: center;

@@ -1,13 +1,13 @@
 .five-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
    
 }
 
 .five-left {
-    width: 30%; 
+    width: 50%; 
 }
 
 .five-left h2 {
@@ -47,7 +47,11 @@
 }
 
 .five-right {
-    width: 30%; 
+    width: 50%; 
+}
+
+.five-right img {
+    width: 100%;
 }
 
 @media (max-width: 768px) {

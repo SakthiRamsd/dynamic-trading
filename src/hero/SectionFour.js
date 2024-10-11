@@ -10,7 +10,7 @@ function SectionFour() {
       <div className='four-container'>
       
           <div className='four-left'>
-            <img src={heroImage} width={620}/>
+            <img src={heroImage}/>
           </div>
 
           <div className='four-right'>

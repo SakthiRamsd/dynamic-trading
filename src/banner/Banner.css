@@ -3,12 +3,11 @@
     justify-content: space-between; 
     align-items: center;
     margin-top: 100px;
-    padding: 0 20px; 
+    padding: 0 10px; 
 }
 
 .banner-left {
-    width: 40%;
-    margin: auto;
+    width: 50%;
 }
 
 .banner-left h1 {
@@ -70,11 +69,11 @@
 }
 
 .banner-right {
-    width: 40%;
+    width: 50%;
 }
 
 .banner-right img {
-    max-width: -webkit-fill-available;
+   width: 100%;
 }
 
 

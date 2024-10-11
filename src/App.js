@@ -14,7 +14,7 @@ import FooterSection from './footer/FooterSection';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <NavBar/>
       <Banner/>
       <SectionOne/>

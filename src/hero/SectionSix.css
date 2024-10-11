@@ -1,13 +1,12 @@
 .six-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 100px;
 }
 
 .six-content {
     text-align: center;
-    width: 30%;
 }
 
 .six-content h3 {
