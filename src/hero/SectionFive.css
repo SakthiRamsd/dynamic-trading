@@ -1,75 +1,76 @@
 .five-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .five-left {
-    width: 50%; 
+  width: 50%;
 }
 
 .five-left h2 {
-    width: 80%;
-    font-weight: 700;
-    font-size: 35px;
-    opacity: 0.9;
-    color: #26306a;
-    margin-bottom: 20px;
+  width: 80%;
+  font-weight: 700;
+  font-size: 35px;
+  opacity: 0.9;
+  color: #26306a;
+  margin-bottom: 20px;
 }
 
 .five-left p {
-    width: 80%;
-    font-size: 14px;
-    opacity: 0.6;
-    line-height: 2;
-    margin-bottom: 30px; 
+  width: 80%;
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 2;
+  margin-bottom: 30px;
 }
 
 .five-btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .five-btn a {
-    background-color: #178ef4;
-    padding: 13px 20px;
-    border-radius: 40px;
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    opacity: 0.9;
-    transition: background-color 0.3s ease; 
+  background-color: #178ef4;
+  padding: 13px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: background-color 0.3s ease;
 }
 
 .five-btn a:hover {
-    background-color: darkblue; 
+  background-color: darkblue;
 }
 
 .five-right {
-    width: 50%; 
+  width: 50%;
 }
 
 .five-right img {
-    width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
-    .five-container {
-        flex-direction: column; 
-        text-align: center; 
-    }
+  .five-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .five-left, .five-right {
-        width: 100%; 
-        margin-bottom: 20px; 
-    }
+  .five-left,
+  .five-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-    .five-left h2, .five-left p {
-        width: 100%; 
-    }
+  .five-left h2,
+  .five-left p {
+    width: 100%;
+  }
 
-    .five-right img {
-        width: 100%;
-    }
+  .five-right img {
+    width: 100%;
+  }
 }

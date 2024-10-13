@@ -1,111 +1,110 @@
 .banner-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    margin-top: 100px;
-    padding: 0 10px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 10px;
 }
 
 .banner-left {
-    width: 50%;
+  width: 50%;
 }
 
 .banner-left h1 {
-    font-size: 3rem; 
-    opacity: 0.9;
-    font-weight: 700;
-    margin: 0;
-    color: #26306a;
+  font-size: 3rem;
+  opacity: 0.9;
+  font-weight: 700;
+  margin: 0;
+  color: #26306a;
 }
 
 .banner-left p {
-    font-size: 0.75rem; 
-    opacity: 0.6;
-    width: 70%;
-    line-height: 2.5;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  width: 70%;
+  line-height: 2.5;
 }
 
 .banner-btn {
-    display: flex;
-    gap: 20px;
-    padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
 }
 
 .banner-btn a {
-    background-color: #0576e7;
-    padding: 8px 20px;
-    border-radius: 40px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    opacity: 0.9;
-    transition: background-color 0.3s, transform 0.3s;
+  background-color: #0576e7;
+  padding: 8px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .banner-btn .download {
-    background-color: #fff;
-    color: #0576e7;
-    border: 2px solid #0576e7;
+  background-color: #fff;
+  color: #0576e7;
+  border: 2px solid #0576e7;
 }
 
 .banner-featured {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .banner-featured h5 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #26306a;
-    opacity: 0.7;
+  font-size: 16px;
+  font-weight: 700;
+  color: #26306a;
+  opacity: 0.7;
 }
 
 .banner-featured ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    opacity: 0.6;
-    font-size: 1rem; 
-    font-weight: 600;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  opacity: 0.6;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .banner-right {
-    width: 50%;
+  width: 50%;
 }
 
 .banner-right img {
-   width: 100%;
+  width: 100%;
 }
 
-
 @media (max-width: 768px) {
-    .banner-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .banner-left,
-    .banner-right {
-        width: 100%; 
-        text-align: center; 
-    }
+  .banner-left,
+  .banner-right {
+    width: 100%;
+    text-align: center;
+  }
 
-    .banner-left h1 {
-        font-size: 2.5rem; 
-    }
+  .banner-left h1 {
+    font-size: 2.5rem;
+  }
 
-    .banner-left p {
-        font-size: 0.65rem;
-    }
+  .banner-left p {
+    font-size: 0.65rem;
+  }
 
-    .banner-featured h5 {
-        margin: 20px 0;
-    }
+  .banner-featured h5 {
+    margin: 20px 0;
+  }
 
-    .banner-featured ul {
-        flex-direction: column;
-    }
+  .banner-featured ul {
+    flex-direction: column;
+  }
 
-    .banner-btn a{
-        margin: auto
-    }
+  .banner-btn a {
+    margin: auto;
+  }
 }

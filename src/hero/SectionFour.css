@@ -1,82 +1,84 @@
 .four-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .four-left {
-    width: 50%; 
+  width: 50%;
 }
 
 .four-left img {
-    width: 100%;
+  width: 100%;
 }
 
 .four-right {
-    width: 50%;
+  width: 50%;
 }
 
 .four-right h2 {
-    width: 70%;
-    font-weight: 700;
-    font-size: 2.2rem;
-    opacity: 0.9;
-    color: #26306a;
-    margin-bottom: 20px;
+  width: 70%;
+  font-weight: 700;
+  font-size: 2.2rem;
+  opacity: 0.9;
+  color: #26306a;
+  margin-bottom: 20px;
 }
 
 .four-right p {
-    font-size: 12px; 
-    opacity: 0.6;
-    line-height: 1.8; 
-    width: 80%;
-    margin-bottom: 30px;
+  font-size: 12px;
+  opacity: 0.6;
+  line-height: 1.8;
+  width: 80%;
+  margin-bottom: 30px;
 }
 
 .four-list {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .four-list ul {
-    list-style-type: none;
-    line-height: 2;
-    font-weight: 500;
-    font-size: 14px; 
-    opacity: 0.8;
+  list-style-type: none;
+  line-height: 2;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 .four-list ul li {
-    display: flex;
-    align-items: center; 
+  display: flex;
+  align-items: center;
 }
 
 .four-list ul li svg {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
-    .four-container {
-        flex-direction: column;
-        text-align: center;
-    }
+  .four-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .four-left, .four-right {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .four-left,
+  .four-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-    .four-right h2, .four-right p {
-        width: 100%; 
-    }
+  .four-right h2,
+  .four-right p {
+    width: 100%;
+  }
 
-    .four-left img {
-        width: 100%;
-    }
+  .four-left img {
+    width: 100%;
+  }
 
-    .four-list {
-        flex-direction: column;
-    }
+  .four-list {
+    flex-direction: column;
+  }
 }

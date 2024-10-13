@@ -1,70 +1,72 @@
 .three-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .three-left {
-    width: 50%; 
+  width: 50%;
 }
 
 .three-left h2 {
-    width: 80%; 
-    font-weight: 700;
-    font-size: 2rem;
-    opacity: 0.9;
-    color: #26306a;
-    margin-bottom: 15px; 
+  width: 80%;
+  font-weight: 700;
+  font-size: 2rem;
+  opacity: 0.9;
+  color: #26306a;
+  margin-bottom: 15px;
 }
 
 .three-left p {
-    width: 70%; 
-    font-size: 12px; 
-    opacity: 0.6;
-    line-height: 1.6; 
-    margin-bottom: 20px; 
+  width: 70%;
+  font-size: 12px;
+  opacity: 0.6;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .three-btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .three-btn a {
-    background-color: #178ef4; 
-    padding: 13px 20px; 
-    border-radius: 40px; 
-    text-decoration: none; 
-    color: #fff; 
-    font-weight: 600;
-    opacity: 0.9;
-    transition: background-color 0.3s; 
+  background-color: #178ef4;
+  padding: 13px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: background-color 0.3s;
 }
 
 .three-right {
-    width: 50%; 
+  width: 50%;
 }
 
 .three-right img {
-    width: 100%;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
-    .three-container {
-        flex-direction: column; 
-        text-align: center; 
-    }
+  .three-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .three-left, .three-right {
-        width: 100%; 
-        margin: 20px 0; 
-    }
+  .three-left,
+  .three-right {
+    width: 100%;
+    margin: 20px 0;
+  }
 
-    .three-right img {
-        width: 100%;
-    }
+  .three-right img {
+    width: 100%;
+  }
 
-    .three-left h2, .three-left p {
-        width: 100%; 
-    }
+  .three-left h2,
+  .three-left p {
+    width: 100%;
+  }
 }
